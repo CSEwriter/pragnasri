@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+.container {
+  /*}
+      .list-lang{
+          @include list;
+      }
+  }*/
+}
+.container .parent {
+  width: 600px;
+  height: 700px;
+  background-color: skyblue;
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: fixed;
+}
+.container .parent .child {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+}/*# sourceMappingURL=styling.css.map */
