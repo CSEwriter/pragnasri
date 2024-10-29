@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    width: 300px;
+    height: 200px;
+    .details{
+        background: linear-gradient(purple,skyblue,cyan);
+        stop-opacity: 0.75;
+        position: relative;
+        .field{
+             display: flex;
+             justify-content: center;
+             padding:20px;
+             position: absolute;
+
+        }
+    }
+}

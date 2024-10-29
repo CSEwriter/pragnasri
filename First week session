@@ -1,0 +1,47 @@
+<!-- <!DOCTYPE html>
+
+<html>
+    <head> 
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="CSS\styling.css">
+    </head>
+    <body>
+        <h1>This is a webpage</h1>
+        <div class="container">
+            <div class="div-header">
+                These are the pages
+                <div class="list-items">
+                    <ol>
+                        <li>Home </li>
+                        <li>About Us </li>
+                        <li>Contact </li>
+                    </ol>
+                </div>
+                These are coding languages
+                <div class="list-lang">
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul></div>
+                </div>
+        <ul class="parent">
+            <li class="child">Hello</li>
+            <li class="child">Good Morning ashwini</li>
+            <li class="child"></li>
+            <li class="child"></li>
+            <li class="child"></li>
+            <li class="child" style="background-color: chartreuse;"></li>
+            <li class="child"></li>
+            <li class="child"></li>
+            <li class="child"></li>
+             this is child 1 
+        </ul>
+    </div>
+        
+    </body>
+</html>
+
+<-Install live sass compiler and live server
+Type in scss file
+link the css file in html---> 
