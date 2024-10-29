@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -6,13 +11,12 @@
     height: 200px;
     .details{
         background: linear-gradient(purple,skyblue,cyan);
-        stop-opacity: 0.75;
-        position: relative;
+        //position: relative;
         .field{
              display: flex;
              justify-content: center;
              padding:20px;
-             position: absolute;
+             //position: absolute;
 
         }
     }

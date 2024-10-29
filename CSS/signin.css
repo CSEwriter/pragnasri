@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -7,12 +12,9 @@
 }
 .container .details {
   background: linear-gradient(purple, skyblue, cyan);
-  stop-opacity: 0.75;
-  position: relative;
 }
 .container .details .field {
   display: flex;
   justify-content: center;
   padding: 20px;
-  position: absolute;
 }/*# sourceMappingURL=signin.css.map */
