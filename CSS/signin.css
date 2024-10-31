@@ -6,15 +6,34 @@
 .container {
   display: flex;
   justify-content: center;
-  background-color: blue;
+  background: linear-gradient(crimson, royalblue);
   width: 300px;
-  height: 200px;
+  height: 220px;
+  margin: auto;
+  transform: translateY(100%);
+  flex-wrap: wrap;
+  color: pink;
+  font-size: 20px;
+  border: 3px;
+  border-style: inset;
+  border-color: rgb(8, 37, 12);
+}
+.container label {
+  margin: 5px;
 }
 .container .details {
-  background: linear-gradient(purple, skyblue, cyan);
+  margin: 10px;
+  background: linear-gradient(lightblue, skyblue, cyan);
 }
 .container .details .field {
   display: flex;
   justify-content: center;
   padding: 20px;
+  color: black;
+  font-size: 15px;
+}
+.container .details .buttons {
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=signin.css.map */
