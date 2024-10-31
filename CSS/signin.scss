@@ -6,7 +6,7 @@
 .container{
     display: flex;
     justify-content: center;   
-    background: linear-gradient(crimson,royalblue);
+    background: royalblue;
     width: 300px;
     height: 220px;
     margin: auto;
@@ -21,8 +21,14 @@
         margin:5px;
     }
     .details{
-        margin: 10px;
-        background: linear-gradient(lightblue,skyblue,cyan);
+        border:5px;
+        border-style: solid;
+        border-color:lightblue;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        background: linear-gradient(lightblue,skyblue,lightblue);
         .field{
              display: flex;
              justify-content: center;
